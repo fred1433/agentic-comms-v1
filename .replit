@@ -1,0 +1,34 @@
+# The command that runs the program
+run = "python server.py"
+
+# The primary language of the repl
+language = "python3"
+
+# A list of globs that specify which files and directories should
+# be hidden in the workspace.
+hidden = ["venv", ".config", "**/__pycache__", "**/.mypy_cache", "**/*.pyc"]
+
+[nix]
+channel = "stable-21_11"
+
+[env]
+VIRTUAL_ENV = "venv"
+PATH = "${VIRTUAL_ENV}/bin"
+PYTHONPATH = "$PYTHONHOME/lib/python3.8:${VIRTUAL_ENV}/lib/python3.8/site-packages"
+REPLIT_POETRY_PYPI_REPOSITORY = "https://package-proxy.replit.com/pypi/"
+MPLBACKEND = "TkAgg"
+POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix", "requirements.txt"]
+
+[packager]
+language = "python3"
+ignoredPackages = ["unit_tests"]
+
+  [packager.features]
+  enabledForHosting = false
+  # Enable searching for packages
+  packageSearch = true
+  # Enable guessing what packages are needed from files
+  guessImports = true 
