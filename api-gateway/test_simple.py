@@ -268,8 +268,10 @@ async def get_conversations():
 
 if __name__ == "__main__":
     import uvicorn
+    port = int(os.getenv("PORT", 8000))  # Railway provides PORT env variable
     print("🚀 Agentic Communications V1 - Production Backend")
     print("🤖 OpenAI Integration:", "✅ Active" if openai_client else "⚠️  Mock Mode")
-    print("🌐 CORS enabled for: http://localhost:3000")
-    print("📊 Endpoints: /health, /api/v1/chat, /api/v1/dashboard/stats, /api/v1/email")
-    uvicorn.run(app, host="127.0.0.1", port=8000) 
+    print(f"🌐 CORS enabled for all origins (production mode)")
+    print(f"📊 Endpoints: /health, /api/v1/chat, /api/v1/dashboard/stats, /api/v1/email")
+    print(f"🔥 Starting on port {port}")
+    uvicorn.run(app, host="0.0.0.0", port=port) 
