@@ -9,13 +9,17 @@ from datetime import datetime
 import os
 from openai import OpenAI
 
+# Load environment variables from .env file
+from dotenv import load_dotenv
+load_dotenv()  # This loads the .env file
+
 # Initialize OpenAI client
 openai_client = None
 try:
     api_key = os.getenv("OPENAI_API_KEY")
     if api_key:
         openai_client = OpenAI(api_key=api_key)
-        print("✅ OpenAI client initialized")
+        print("✅ OpenAI client initialized with real API key")
     else:
         print("⚠️  OpenAI API key not found - using mock responses")
 except Exception as e:
@@ -26,7 +30,7 @@ app = FastAPI(title="Agentic Communications V1 - Production Ready", version="1.0
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "*"],  # Add * for deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

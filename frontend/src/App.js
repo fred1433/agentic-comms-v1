@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+// API base URL - works locally and in production
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [apiStatus, setApiStatus] = useState('⚙️ Testing');
@@ -31,7 +34,7 @@ function App() {
   const testAPI = async () => {
     setIsLoading(true);
     try {
-      const response = await fetch('http://localhost:8000/health');
+      const response = await fetch(`${API_BASE_URL}/health`);
       const data = await response.json();
       
       if (response.ok) {
@@ -49,7 +52,7 @@ function App() {
 
   const loadDashboardData = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/v1/dashboard/stats');
+      const response = await fetch(`${API_BASE_URL}/api/v1/dashboard/stats`);
       const data = await response.json();
       setDashboardData(data);
     } catch (error) {
@@ -71,7 +74,7 @@ function App() {
     setIsTyping(true);
 
     try {
-      const response = await fetch('http://localhost:8000/api/v1/chat', {
+      const response = await fetch(`${API_BASE_URL}/api/v1/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
