@@ -1,0 +1,1250 @@
+[
+  {
+    "id": "agent_001",
+    "name": "Agent 1",
+    "status": "idle",
+    "specialization": "general",
+    "current_load": 3,
+    "max_load": 10,
+    "total_processed": 581,
+    "successful_resolutions": 3844,
+    "escalations": 172,
+    "errors": 11,
+    "uptime_hours": 735.995894824505,
+    "last_activity": "2025-06-05T12:38:53.698134",
+    "success_rate": 0.8779594405217354,
+    "average_response_time_ms": 1240,
+    "average_confidence_score": 0.8917298402219114,
+    "languages": [
+      "en"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_002",
+    "name": "Agent 2",
+    "status": "busy",
+    "specialization": "billing",
+    "current_load": 2,
+    "max_load": 10,
+    "total_processed": 2364,
+    "successful_resolutions": 4115,
+    "escalations": 173,
+    "errors": 12,
+    "uptime_hours": 740.8146831858402,
+    "last_activity": "2025-06-05T15:02:53.698154",
+    "success_rate": 0.9106436859683081,
+    "average_response_time_ms": 2883,
+    "average_confidence_score": 0.8419559019355292,
+    "languages": [
+      "es"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_003",
+    "name": "Agent 3",
+    "status": "offline",
+    "specialization": "billing",
+    "current_load": 1,
+    "max_load": 10,
+    "total_processed": 4038,
+    "successful_resolutions": 2769,
+    "escalations": 21,
+    "errors": 17,
+    "uptime_hours": 742.7404005423864,
+    "last_activity": "2025-06-05T14:48:53.698164",
+    "success_rate": 0.8892641214692593,
+    "average_response_time_ms": 1267,
+    "average_confidence_score": 0.9105507589063502,
+    "languages": [
+      "de",
+      "it",
+      "es"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_004",
+    "name": "Agent 4",
+    "status": "busy",
+    "specialization": "sales",
+    "current_load": 9,
+    "max_load": 10,
+    "total_processed": 4530,
+    "successful_resolutions": 1355,
+    "escalations": 191,
+    "errors": 35,
+    "uptime_hours": 733.6824657799507,
+    "last_activity": "2025-06-05T12:53:53.698173",
+    "success_rate": 0.926350966921676,
+    "average_response_time_ms": 1282,
+    "average_confidence_score": 0.8590153786438255,
+    "languages": [
+      "en",
+      "de",
+      "fr"
+    ],
+    "certifications": [
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_005",
+    "name": "Agent 5",
+    "status": "training",
+    "specialization": "technical",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 1488,
+    "successful_resolutions": 476,
+    "escalations": 176,
+    "errors": 4,
+    "uptime_hours": 724.2950683248478,
+    "last_activity": "2025-06-05T12:43:53.698181",
+    "success_rate": 0.8708991455877625,
+    "average_response_time_ms": 1860,
+    "average_confidence_score": 0.8294184819530697,
+    "languages": [
+      "fr",
+      "de"
+    ],
+    "certifications": [
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_006",
+    "name": "Agent 6",
+    "status": "training",
+    "specialization": "technical",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 4859,
+    "successful_resolutions": 699,
+    "escalations": 19,
+    "errors": 2,
+    "uptime_hours": 741.3494663277329,
+    "last_activity": "2025-06-05T12:45:53.698189",
+    "success_rate": 0.8727547048329934,
+    "average_response_time_ms": 3250,
+    "average_confidence_score": 0.779966215163273,
+    "languages": [
+      "it"
+    ],
+    "certifications": [
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_007",
+    "name": "Agent 7",
+    "status": "offline",
+    "specialization": "general",
+    "current_load": 0,
+    "max_load": 10,
+    "total_processed": 3592,
+    "successful_resolutions": 2258,
+    "escalations": 132,
+    "errors": 35,
+    "uptime_hours": 741.6666354940317,
+    "last_activity": "2025-06-05T13:25:53.698196",
+    "success_rate": 0.828036664770878,
+    "average_response_time_ms": 3577,
+    "average_confidence_score": 0.761236838783435,
+    "languages": [
+      "es",
+      "it"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Customer Service",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_008",
+    "name": "Agent 8",
+    "status": "offline",
+    "specialization": "billing",
+    "current_load": 8,
+    "max_load": 10,
+    "total_processed": 949,
+    "successful_resolutions": 1279,
+    "escalations": 168,
+    "errors": 17,
+    "uptime_hours": 723.5231812851052,
+    "last_activity": "2025-06-05T13:49:53.698204",
+    "success_rate": 0.9008300653104617,
+    "average_response_time_ms": 3733,
+    "average_confidence_score": 0.8608855391183942,
+    "languages": [
+      "es"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_009",
+    "name": "Agent 9",
+    "status": "busy",
+    "specialization": "billing",
+    "current_load": 8,
+    "max_load": 10,
+    "total_processed": 2592,
+    "successful_resolutions": 3101,
+    "escalations": 15,
+    "errors": 20,
+    "uptime_hours": 739.34705500635,
+    "last_activity": "2025-06-05T12:21:53.698212",
+    "success_rate": 0.901096771153887,
+    "average_response_time_ms": 3241,
+    "average_confidence_score": 0.898762065415223,
+    "languages": [
+      "es",
+      "de",
+      "fr"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_010",
+    "name": "Agent 10",
+    "status": "training",
+    "specialization": "sales",
+    "current_load": 2,
+    "max_load": 10,
+    "total_processed": 3976,
+    "successful_resolutions": 4421,
+    "escalations": 100,
+    "errors": 42,
+    "uptime_hours": 739.8786146114641,
+    "last_activity": "2025-06-05T12:49:53.698219",
+    "success_rate": 0.8578364277759378,
+    "average_response_time_ms": 3559,
+    "average_confidence_score": 0.8837108631338332,
+    "languages": [
+      "fr",
+      "en",
+      "de"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_011",
+    "name": "Agent 11",
+    "status": "offline",
+    "specialization": "technical",
+    "current_load": 9,
+    "max_load": 10,
+    "total_processed": 2666,
+    "successful_resolutions": 3214,
+    "escalations": 111,
+    "errors": 44,
+    "uptime_hours": 730.7480916364088,
+    "last_activity": "2025-06-05T13:40:53.698229",
+    "success_rate": 0.9514535060011553,
+    "average_response_time_ms": 2671,
+    "average_confidence_score": 0.904837463195641,
+    "languages": [
+      "en"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_012",
+    "name": "Agent 12",
+    "status": "idle",
+    "specialization": "technical",
+    "current_load": 6,
+    "max_load": 10,
+    "total_processed": 4257,
+    "successful_resolutions": 3937,
+    "escalations": 37,
+    "errors": 42,
+    "uptime_hours": 736.8735001188685,
+    "last_activity": "2025-06-05T13:58:53.698236",
+    "success_rate": 0.8609049424458058,
+    "average_response_time_ms": 3609,
+    "average_confidence_score": 0.8821896000427268,
+    "languages": [
+      "fr"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_013",
+    "name": "Agent 13",
+    "status": "training",
+    "specialization": "general",
+    "current_load": 3,
+    "max_load": 10,
+    "total_processed": 4096,
+    "successful_resolutions": 875,
+    "escalations": 180,
+    "errors": 1,
+    "uptime_hours": 726.9458202280962,
+    "last_activity": "2025-06-05T14:32:53.698243",
+    "success_rate": 0.8352180723413145,
+    "average_response_time_ms": 3577,
+    "average_confidence_score": 0.8382114801350619,
+    "languages": [
+      "de"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_014",
+    "name": "Agent 14",
+    "status": "training",
+    "specialization": "technical",
+    "current_load": 10,
+    "max_load": 10,
+    "total_processed": 2336,
+    "successful_resolutions": 3073,
+    "escalations": 161,
+    "errors": 14,
+    "uptime_hours": 742.0281979128268,
+    "last_activity": "2025-06-05T13:03:53.698252",
+    "success_rate": 0.909693377372986,
+    "average_response_time_ms": 1819,
+    "average_confidence_score": 0.7523192006787536,
+    "languages": [
+      "en",
+      "it",
+      "de"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_015",
+    "name": "Agent 15",
+    "status": "offline",
+    "specialization": "sales",
+    "current_load": 6,
+    "max_load": 10,
+    "total_processed": 2167,
+    "successful_resolutions": 492,
+    "escalations": 190,
+    "errors": 3,
+    "uptime_hours": 736.5448363041273,
+    "last_activity": "2025-06-05T12:56:53.698260",
+    "success_rate": 0.93307188840366,
+    "average_response_time_ms": 2164,
+    "average_confidence_score": 0.7522331285106114,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "certifications": [
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_016",
+    "name": "Agent 16",
+    "status": "offline",
+    "specialization": "billing",
+    "current_load": 5,
+    "max_load": 10,
+    "total_processed": 1653,
+    "successful_resolutions": 2847,
+    "escalations": 116,
+    "errors": 17,
+    "uptime_hours": 732.7338871326037,
+    "last_activity": "2025-06-05T13:15:53.698267",
+    "success_rate": 0.8453441570672777,
+    "average_response_time_ms": 3542,
+    "average_confidence_score": 0.8702815018516769,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "certifications": [
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_017",
+    "name": "Agent 17",
+    "status": "idle",
+    "specialization": "billing",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 671,
+    "successful_resolutions": 1625,
+    "escalations": 68,
+    "errors": 38,
+    "uptime_hours": 738.173522359186,
+    "last_activity": "2025-06-05T12:37:53.698274",
+    "success_rate": 0.9142887908411355,
+    "average_response_time_ms": 1369,
+    "average_confidence_score": 0.8682209724468721,
+    "languages": [
+      "fr"
+    ],
+    "certifications": [
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_018",
+    "name": "Agent 18",
+    "status": "idle",
+    "specialization": "sales",
+    "current_load": 9,
+    "max_load": 10,
+    "total_processed": 3689,
+    "successful_resolutions": 1794,
+    "escalations": 162,
+    "errors": 42,
+    "uptime_hours": 739.2238480111406,
+    "last_activity": "2025-06-05T14:03:53.698281",
+    "success_rate": 0.9407941363315835,
+    "average_response_time_ms": 3170,
+    "average_confidence_score": 0.9026251080835507,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_019",
+    "name": "Agent 19",
+    "status": "offline",
+    "specialization": "technical",
+    "current_load": 1,
+    "max_load": 10,
+    "total_processed": 1767,
+    "successful_resolutions": 1977,
+    "escalations": 79,
+    "errors": 46,
+    "uptime_hours": 721.6744865392924,
+    "last_activity": "2025-06-05T15:09:53.698289",
+    "success_rate": 0.9410369743790198,
+    "average_response_time_ms": 3101,
+    "average_confidence_score": 0.7928862096602369,
+    "languages": [
+      "fr"
+    ],
+    "certifications": [
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_020",
+    "name": "Agent 20",
+    "status": "idle",
+    "specialization": "sales",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 4778,
+    "successful_resolutions": 3530,
+    "escalations": 78,
+    "errors": 23,
+    "uptime_hours": 726.3964927503717,
+    "last_activity": "2025-06-05T14:38:53.698295",
+    "success_rate": 0.9461664699182835,
+    "average_response_time_ms": 3533,
+    "average_confidence_score": 0.7516228879217983,
+    "languages": [
+      "de",
+      "it",
+      "es"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_021",
+    "name": "Agent 21",
+    "status": "idle",
+    "specialization": "sales",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 3533,
+    "successful_resolutions": 3605,
+    "escalations": 146,
+    "errors": 12,
+    "uptime_hours": 740.6075049454372,
+    "last_activity": "2025-06-05T14:13:53.698303",
+    "success_rate": 0.9380925058103352,
+    "average_response_time_ms": 2784,
+    "average_confidence_score": 0.8639456439563546,
+    "languages": [
+      "de",
+      "it",
+      "es"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_022",
+    "name": "Agent 22",
+    "status": "busy",
+    "specialization": "general",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 4764,
+    "successful_resolutions": 2475,
+    "escalations": 37,
+    "errors": 6,
+    "uptime_hours": 721.4315174142122,
+    "last_activity": "2025-06-05T12:17:53.698311",
+    "success_rate": 0.90416356728497,
+    "average_response_time_ms": 2552,
+    "average_confidence_score": 0.8411528459618292,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_023",
+    "name": "Agent 23",
+    "status": "busy",
+    "specialization": "technical",
+    "current_load": 8,
+    "max_load": 10,
+    "total_processed": 3667,
+    "successful_resolutions": 3406,
+    "escalations": 132,
+    "errors": 44,
+    "uptime_hours": 725.6847880254101,
+    "last_activity": "2025-06-05T15:06:53.698318",
+    "success_rate": 0.9547746277123375,
+    "average_response_time_ms": 3777,
+    "average_confidence_score": 0.7999798787414159,
+    "languages": [
+      "en",
+      "it"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_024",
+    "name": "Agent 24",
+    "status": "idle",
+    "specialization": "general",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 3182,
+    "successful_resolutions": 1653,
+    "escalations": 160,
+    "errors": 25,
+    "uptime_hours": 738.078492133265,
+    "last_activity": "2025-06-05T12:57:53.698326",
+    "success_rate": 0.9656327268196602,
+    "average_response_time_ms": 1502,
+    "average_confidence_score": 0.7737346089681574,
+    "languages": [
+      "en",
+      "de"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_025",
+    "name": "Agent 25",
+    "status": "training",
+    "specialization": "general",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 994,
+    "successful_resolutions": 4006,
+    "escalations": 34,
+    "errors": 19,
+    "uptime_hours": 738.2752972397055,
+    "last_activity": "2025-06-05T14:16:53.698333",
+    "success_rate": 0.8839021218693518,
+    "average_response_time_ms": 2102,
+    "average_confidence_score": 0.8011286792286699,
+    "languages": [
+      "en"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_026",
+    "name": "Agent 26",
+    "status": "offline",
+    "specialization": "billing",
+    "current_load": 5,
+    "max_load": 10,
+    "total_processed": 861,
+    "successful_resolutions": 4005,
+    "escalations": 195,
+    "errors": 35,
+    "uptime_hours": 722.1230325159925,
+    "last_activity": "2025-06-05T15:14:53.698340",
+    "success_rate": 0.857588030477129,
+    "average_response_time_ms": 2670,
+    "average_confidence_score": 0.7914931272603211,
+    "languages": [
+      "it"
+    ],
+    "certifications": [
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_027",
+    "name": "Agent 27",
+    "status": "training",
+    "specialization": "general",
+    "current_load": 0,
+    "max_load": 10,
+    "total_processed": 4120,
+    "successful_resolutions": 1088,
+    "escalations": 142,
+    "errors": 6,
+    "uptime_hours": 742.2026733522356,
+    "last_activity": "2025-06-05T14:28:53.698347",
+    "success_rate": 0.9105060664379689,
+    "average_response_time_ms": 2046,
+    "average_confidence_score": 0.8682971741289724,
+    "languages": [
+      "de",
+      "es"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_028",
+    "name": "Agent 28",
+    "status": "training",
+    "specialization": "billing",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 4880,
+    "successful_resolutions": 2149,
+    "escalations": 192,
+    "errors": 49,
+    "uptime_hours": 730.6738604001833,
+    "last_activity": "2025-06-05T12:22:53.698355",
+    "success_rate": 0.9237045831059738,
+    "average_response_time_ms": 1906,
+    "average_confidence_score": 0.8583222697881658,
+    "languages": [
+      "fr",
+      "en",
+      "es"
+    ],
+    "certifications": [
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_029",
+    "name": "Agent 29",
+    "status": "busy",
+    "specialization": "sales",
+    "current_load": 8,
+    "max_load": 10,
+    "total_processed": 2648,
+    "successful_resolutions": 4491,
+    "escalations": 99,
+    "errors": 40,
+    "uptime_hours": 729.7094598663763,
+    "last_activity": "2025-06-05T14:51:53.698363",
+    "success_rate": 0.8274074909915814,
+    "average_response_time_ms": 3502,
+    "average_confidence_score": 0.8895494709633043,
+    "languages": [
+      "it",
+      "de",
+      "fr"
+    ],
+    "certifications": [
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_030",
+    "name": "Agent 30",
+    "status": "busy",
+    "specialization": "technical",
+    "current_load": 5,
+    "max_load": 10,
+    "total_processed": 4518,
+    "successful_resolutions": 3747,
+    "escalations": 46,
+    "errors": 0,
+    "uptime_hours": 724.4374752422535,
+    "last_activity": "2025-06-05T13:54:53.698370",
+    "success_rate": 0.8711075200018781,
+    "average_response_time_ms": 2907,
+    "average_confidence_score": 0.7957155131210554,
+    "languages": [
+      "fr",
+      "es",
+      "it"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_031",
+    "name": "Agent 31",
+    "status": "idle",
+    "specialization": "general",
+    "current_load": 1,
+    "max_load": 10,
+    "total_processed": 4786,
+    "successful_resolutions": 2822,
+    "escalations": 200,
+    "errors": 49,
+    "uptime_hours": 722.8057370503138,
+    "last_activity": "2025-06-05T14:30:53.698378",
+    "success_rate": 0.8584017333569364,
+    "average_response_time_ms": 1735,
+    "average_confidence_score": 0.7638529168878058,
+    "languages": [
+      "fr"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_032",
+    "name": "Agent 32",
+    "status": "training",
+    "specialization": "sales",
+    "current_load": 2,
+    "max_load": 10,
+    "total_processed": 1059,
+    "successful_resolutions": 1981,
+    "escalations": 137,
+    "errors": 7,
+    "uptime_hours": 730.891494865924,
+    "last_activity": "2025-06-05T14:58:53.698385",
+    "success_rate": 0.9315507760611326,
+    "average_response_time_ms": 1630,
+    "average_confidence_score": 0.8351318813677661,
+    "languages": [
+      "en"
+    ],
+    "certifications": [
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_033",
+    "name": "Agent 33",
+    "status": "training",
+    "specialization": "technical",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 4816,
+    "successful_resolutions": 2152,
+    "escalations": 52,
+    "errors": 15,
+    "uptime_hours": 740.7908013331677,
+    "last_activity": "2025-06-05T14:23:53.698391",
+    "success_rate": 0.9534913230666935,
+    "average_response_time_ms": 2571,
+    "average_confidence_score": 0.7641823962533697,
+    "languages": [
+      "it",
+      "fr",
+      "en"
+    ],
+    "certifications": [
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_034",
+    "name": "Agent 34",
+    "status": "busy",
+    "specialization": "sales",
+    "current_load": 10,
+    "max_load": 10,
+    "total_processed": 2563,
+    "successful_resolutions": 3610,
+    "escalations": 65,
+    "errors": 17,
+    "uptime_hours": 737.6868805066032,
+    "last_activity": "2025-06-05T14:03:53.698399",
+    "success_rate": 0.8930765795099895,
+    "average_response_time_ms": 2567,
+    "average_confidence_score": 0.82450967023905,
+    "languages": [
+      "de"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_035",
+    "name": "Agent 35",
+    "status": "busy",
+    "specialization": "sales",
+    "current_load": 10,
+    "max_load": 10,
+    "total_processed": 3252,
+    "successful_resolutions": 2968,
+    "escalations": 103,
+    "errors": 7,
+    "uptime_hours": 733.7760942801622,
+    "last_activity": "2025-06-05T12:53:53.698406",
+    "success_rate": 0.9497688236279833,
+    "average_response_time_ms": 1389,
+    "average_confidence_score": 0.7809992295439252,
+    "languages": [
+      "de",
+      "it",
+      "fr"
+    ],
+    "certifications": [
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_036",
+    "name": "Agent 36",
+    "status": "idle",
+    "specialization": "billing",
+    "current_load": 1,
+    "max_load": 10,
+    "total_processed": 3422,
+    "successful_resolutions": 2259,
+    "escalations": 181,
+    "errors": 17,
+    "uptime_hours": 730.9112373576961,
+    "last_activity": "2025-06-05T13:31:53.698413",
+    "success_rate": 0.8784084758965055,
+    "average_response_time_ms": 3548,
+    "average_confidence_score": 0.87439894690436,
+    "languages": [
+      "en"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_037",
+    "name": "Agent 37",
+    "status": "training",
+    "specialization": "general",
+    "current_load": 1,
+    "max_load": 10,
+    "total_processed": 4782,
+    "successful_resolutions": 3091,
+    "escalations": 188,
+    "errors": 15,
+    "uptime_hours": 731.8186282293502,
+    "last_activity": "2025-06-05T13:44:53.698420",
+    "success_rate": 0.9221461146775256,
+    "average_response_time_ms": 1276,
+    "average_confidence_score": 0.7618543332182327,
+    "languages": [
+      "fr",
+      "en",
+      "es"
+    ],
+    "certifications": [
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_038",
+    "name": "Agent 38",
+    "status": "busy",
+    "specialization": "billing",
+    "current_load": 2,
+    "max_load": 10,
+    "total_processed": 4731,
+    "successful_resolutions": 938,
+    "escalations": 80,
+    "errors": 28,
+    "uptime_hours": 742.9442916992698,
+    "last_activity": "2025-06-05T12:39:53.698427",
+    "success_rate": 0.8717954347618702,
+    "average_response_time_ms": 1512,
+    "average_confidence_score": 0.8861206798976654,
+    "languages": [
+      "it",
+      "es",
+      "de"
+    ],
+    "certifications": [
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_039",
+    "name": "Agent 39",
+    "status": "offline",
+    "specialization": "billing",
+    "current_load": 0,
+    "max_load": 10,
+    "total_processed": 1020,
+    "successful_resolutions": 4179,
+    "escalations": 118,
+    "errors": 33,
+    "uptime_hours": 725.0309901397977,
+    "last_activity": "2025-06-05T14:55:53.698435",
+    "success_rate": 0.9614012111838808,
+    "average_response_time_ms": 3524,
+    "average_confidence_score": 0.8651601426400477,
+    "languages": [
+      "es",
+      "it"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_040",
+    "name": "Agent 40",
+    "status": "idle",
+    "specialization": "technical",
+    "current_load": 3,
+    "max_load": 10,
+    "total_processed": 3460,
+    "successful_resolutions": 790,
+    "escalations": 38,
+    "errors": 35,
+    "uptime_hours": 723.7232541362877,
+    "last_activity": "2025-06-05T14:18:53.698444",
+    "success_rate": 0.835097282022594,
+    "average_response_time_ms": 2604,
+    "average_confidence_score": 0.8764563758415191,
+    "languages": [
+      "de",
+      "es",
+      "it"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_041",
+    "name": "Agent 41",
+    "status": "training",
+    "specialization": "billing",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 1877,
+    "successful_resolutions": 1314,
+    "escalations": 78,
+    "errors": 29,
+    "uptime_hours": 740.8860251744766,
+    "last_activity": "2025-06-05T14:15:53.698452",
+    "success_rate": 0.858133944219654,
+    "average_response_time_ms": 1523,
+    "average_confidence_score": 0.8615961032814381,
+    "languages": [
+      "en",
+      "es",
+      "de"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_042",
+    "name": "Agent 42",
+    "status": "idle",
+    "specialization": "technical",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 2915,
+    "successful_resolutions": 3015,
+    "escalations": 87,
+    "errors": 31,
+    "uptime_hours": 738.5140605508474,
+    "last_activity": "2025-06-05T13:39:53.698459",
+    "success_rate": 0.8863865570928985,
+    "average_response_time_ms": 3746,
+    "average_confidence_score": 0.8162234586556452,
+    "languages": [
+      "fr",
+      "it",
+      "en"
+    ],
+    "certifications": [
+      "Technical Support",
+      "Customer Service",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_043",
+    "name": "Agent 43",
+    "status": "idle",
+    "specialization": "billing",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 2454,
+    "successful_resolutions": 3743,
+    "escalations": 125,
+    "errors": 24,
+    "uptime_hours": 723.5175080741282,
+    "last_activity": "2025-06-05T12:58:53.698467",
+    "success_rate": 0.8220675070676624,
+    "average_response_time_ms": 3643,
+    "average_confidence_score": 0.7995432270667746,
+    "languages": [
+      "en",
+      "de"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Technical Support",
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_044",
+    "name": "Agent 44",
+    "status": "idle",
+    "specialization": "general",
+    "current_load": 1,
+    "max_load": 10,
+    "total_processed": 1428,
+    "successful_resolutions": 956,
+    "escalations": 81,
+    "errors": 32,
+    "uptime_hours": 727.0749521756982,
+    "last_activity": "2025-06-05T14:36:53.698474",
+    "success_rate": 0.8466230509367682,
+    "average_response_time_ms": 3125,
+    "average_confidence_score": 0.8191780708381609,
+    "languages": [
+      "es"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_045",
+    "name": "Agent 45",
+    "status": "busy",
+    "specialization": "billing",
+    "current_load": 4,
+    "max_load": 10,
+    "total_processed": 1336,
+    "successful_resolutions": 4108,
+    "escalations": 188,
+    "errors": 29,
+    "uptime_hours": 734.376748130906,
+    "last_activity": "2025-06-05T12:21:53.698482",
+    "success_rate": 0.9402925616055119,
+    "average_response_time_ms": 2744,
+    "average_confidence_score": 0.7979216770508488,
+    "languages": [
+      "en"
+    ],
+    "certifications": [
+      "Azure AI"
+    ]
+  },
+  {
+    "id": "agent_046",
+    "name": "Agent 46",
+    "status": "idle",
+    "specialization": "technical",
+    "current_load": 2,
+    "max_load": 10,
+    "total_processed": 4456,
+    "successful_resolutions": 1084,
+    "escalations": 160,
+    "errors": 0,
+    "uptime_hours": 729.3786682144112,
+    "last_activity": "2025-06-05T12:27:53.698489",
+    "success_rate": 0.9309159511662168,
+    "average_response_time_ms": 2914,
+    "average_confidence_score": 0.7847999597562895,
+    "languages": [
+      "it",
+      "en"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_047",
+    "name": "Agent 47",
+    "status": "offline",
+    "specialization": "sales",
+    "current_load": 9,
+    "max_load": 10,
+    "total_processed": 716,
+    "successful_resolutions": 2881,
+    "escalations": 30,
+    "errors": 37,
+    "uptime_hours": 738.2033930317446,
+    "last_activity": "2025-06-05T14:38:53.698496",
+    "success_rate": 0.8842275887705822,
+    "average_response_time_ms": 1560,
+    "average_confidence_score": 0.8984140263652831,
+    "languages": [
+      "it",
+      "de",
+      "en"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_048",
+    "name": "Agent 48",
+    "status": "idle",
+    "specialization": "billing",
+    "current_load": 5,
+    "max_load": 10,
+    "total_processed": 3278,
+    "successful_resolutions": 1815,
+    "escalations": 27,
+    "errors": 26,
+    "uptime_hours": 734.6445939321648,
+    "last_activity": "2025-06-05T14:30:53.698503",
+    "success_rate": 0.9515269317730313,
+    "average_response_time_ms": 3708,
+    "average_confidence_score": 0.8004368347223748,
+    "languages": [
+      "de",
+      "en"
+    ],
+    "certifications": [
+      "Azure AI",
+      "Technical Support"
+    ]
+  },
+  {
+    "id": "agent_049",
+    "name": "Agent 49",
+    "status": "offline",
+    "specialization": "billing",
+    "current_load": 7,
+    "max_load": 10,
+    "total_processed": 2231,
+    "successful_resolutions": 3055,
+    "escalations": 142,
+    "errors": 21,
+    "uptime_hours": 741.7353388023181,
+    "last_activity": "2025-06-05T13:49:53.698510",
+    "success_rate": 0.9347631394650245,
+    "average_response_time_ms": 2542,
+    "average_confidence_score": 0.8030737404010814,
+    "languages": [
+      "fr"
+    ],
+    "certifications": [
+      "Customer Service"
+    ]
+  },
+  {
+    "id": "agent_050",
+    "name": "Agent 50",
+    "status": "busy",
+    "specialization": "sales",
+    "current_load": 3,
+    "max_load": 10,
+    "total_processed": 1324,
+    "successful_resolutions": 3769,
+    "escalations": 144,
+    "errors": 3,
+    "uptime_hours": 733.694342805919,
+    "last_activity": "2025-06-05T13:43:53.698517",
+    "success_rate": 0.9473313983237692,
+    "average_response_time_ms": 1459,
+    "average_confidence_score": 0.8409640139550068,
+    "languages": [
+      "it",
+      "es",
+      "en"
+    ],
+    "certifications": [
+      "Customer Service",
+      "Azure AI",
+      "Technical Support"
+    ]
+  }
+]

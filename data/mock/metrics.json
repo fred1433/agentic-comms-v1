@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-06-05T15:14:53.698528",
+  "total_agents": 50,
+  "active_agents": 44,
+  "total_conversations": 850,
+  "processed_today": 846,
+  "average_response_time_ms": 2510,
+  "resolution_rate": 0.7911009550820031,
+  "escalation_rate": 0.1416084973734902,
+  "system_uptime_seconds": 2480188,
+  "cpu_usage_percent": 41.91320854993785,
+  "memory_usage_percent": 69.24780898760451,
+  "redis_connections": 139,
+  "database_connections": 36
+}
